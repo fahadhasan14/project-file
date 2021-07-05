@@ -1,7 +1,31 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(248, 231, 210);
+}
 h1 {
   color: rgb(10, 186, 255);
   font-size: 50px;
 }
 .h1-color {
   color: red;
+}
+.section-1 {
+  display: flex;
+}
+.first-half {
+  margin-left: 10px;
+  padding: 5px;
+  width: 50%;
+}
+.first-half img {
+  width: 60%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  background-color: black;
+  border-radius: 10px;
 }
